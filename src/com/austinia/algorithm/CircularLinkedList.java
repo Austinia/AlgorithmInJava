@@ -12,7 +12,7 @@ public class CircularLinkedList<T> {
 		} else {
 		tmpNode.nextNode = headNode;
 		tailNode.nextNode = tmpNode;
-		headNode = tmpNode;
+		tailNode = tmpNode;
 		}
 		
 	}

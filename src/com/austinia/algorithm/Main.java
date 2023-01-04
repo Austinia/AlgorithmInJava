@@ -11,28 +11,37 @@ public class Main {
 		linkedList.add("라이브러리 첫번째");
 		linkedList.add("라이브러리 두번째");
 		linkedList.add("라이브러리 세번째");
-		System.out.println(linkedList.toString());
+//		System.out.println(linkedList.toString());
 		
 		// 단순 연결 리스트
 		SinglyLinkedList<String> singlyLinkedList = new SinglyLinkedList<>();
 		singlyLinkedList.insert("첫번째");
 		singlyLinkedList.insert("두번째");
 		singlyLinkedList.insert("세번째");
-		singlyLinkedList.print();
+//		singlyLinkedList.print();
 		
 		// 이중 연결 리스트
 		DoublyLinkedList<String> doublyLinkedList = new DoublyLinkedList<>();
 		doublyLinkedList.insert("첫번째");
 		doublyLinkedList.insert("두번째");
 		doublyLinkedList.insert("세번째");
-		doublyLinkedList.print();
+//		doublyLinkedList.print();
 		
-		//원형 연결 리스트
+		// 원형 연결 리스트
 		CircularLinkedList<String> circularLinkedList = new CircularLinkedList<>();
 		circularLinkedList.insert("첫번째");
 		circularLinkedList.insert("두번째");
 		circularLinkedList.insert("세번째");
-		circularLinkedList.print();
+//		circularLinkedList.print();
+		
+		// 리버스 연결 리스트
+		ReverseLinkedList<String> reverseLinkedList = new ReverseLinkedList<>();
+		reverseLinkedList.insert("첫번째");
+		reverseLinkedList.insert("두번째");
+		reverseLinkedList.insert("세번째");
+		reverseLinkedList.print();
+		reverseLinkedList.reverse();
+		reverseLinkedList.print();
 		
 	}
 

@@ -12,9 +12,9 @@ public class DoublyLinkedList<T> {
 			tailNode = tmpNode; // 임시 노드가 테일노드가 된다.
 			return;
 		}
-		headNode.prevNode = tmpNode; // 헤드의 이전 포인터로 임시 노드 설정.
-		tmpNode.nextNode = headNode; // 헤드를 임시 노드의 다음 포인터로 변경.
-		headNode = tmpNode; // 임시 노드를 헤드로 변경
+		tmpNode.prevNode = tailNode; // 임시 노드의 이전 포인터로 현재 노드 설정.
+		tailNode.nextNode = tmpNode; // 임시 노드를 현재 노드의 다음 포인터로 변경.
+		tailNode = tmpNode; // 임시 노드를 현재 노드로 변경
 		
 	}
 
