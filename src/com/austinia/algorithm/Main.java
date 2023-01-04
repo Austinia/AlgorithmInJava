@@ -27,6 +27,13 @@ public class Main {
 		doublyLinkedList.insert("세번째");
 		doublyLinkedList.print();
 		
+		//원형 연결 리스트
+		CircularLinkedList<String> circularLinkedList = new CircularLinkedList<>();
+		circularLinkedList.insert("첫번째");
+		circularLinkedList.insert("두번째");
+		circularLinkedList.insert("세번째");
+		circularLinkedList.print();
+		
 	}
 
 }
