@@ -20,15 +20,17 @@ public class Main {
 		// ReverseLinkedList<String> reverseLinkedList = new ReverseLinkedList<>();
 		
 		// 연결 리스트 기반 스택
-		LinkedBasedStack<String> linkedBasedStack = new LinkedBasedStack<>();
-		linkedBasedStack.insert("첫번째");
-		linkedBasedStack.insert("두번째");
-		linkedBasedStack.insert("세번째");
-		linkedBasedStack.pop();
-		linkedBasedStack.pop();
-		linkedBasedStack.pop();
-		linkedBasedStack.pop();
+		// LinkedBasedStack<String> linkedBasedStack = new LinkedBasedStack<>();
 		
+		// 연결 리스트 기반 큐
+		LinkedBasedQueue<String> linkedBasedQueue = new LinkedBasedQueue<>();
+		linkedBasedQueue.insert("첫번째");
+		linkedBasedQueue.insert("두번째");
+		linkedBasedQueue.insert("세번째");
+		linkedBasedQueue.pop();
+		linkedBasedQueue.pop();
+		linkedBasedQueue.pop();
+		linkedBasedQueue.pop();
 	}
 
 }
