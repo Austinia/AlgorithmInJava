@@ -1,47 +1,33 @@
 package com.austinia.algorithm;
 
-import java.util.LinkedList;
-
 public class Main {
 
 	public static void main(String[] args) {
 		
 		// 라이브러리
-		LinkedList<String> linkedList = new LinkedList<>();
-		linkedList.add("라이브러리 첫번째");
-		linkedList.add("라이브러리 두번째");
-		linkedList.add("라이브러리 세번째");
-//		System.out.println(linkedList.toString());
+		// LinkedList<String> linkedList = new LinkedList<>();
 		
 		// 단순 연결 리스트
-		SinglyLinkedList<String> singlyLinkedList = new SinglyLinkedList<>();
-		singlyLinkedList.insert("첫번째");
-		singlyLinkedList.insert("두번째");
-		singlyLinkedList.insert("세번째");
-//		singlyLinkedList.print();
+		// SinglyLinkedList<String> singlyLinkedList = new SinglyLinkedList<>();
 		
 		// 이중 연결 리스트
-		DoublyLinkedList<String> doublyLinkedList = new DoublyLinkedList<>();
-		doublyLinkedList.insert("첫번째");
-		doublyLinkedList.insert("두번째");
-		doublyLinkedList.insert("세번째");
-//		doublyLinkedList.print();
+		// DoublyLinkedList<String> doublyLinkedList = new DoublyLinkedList<>();
 		
 		// 원형 연결 리스트
-		CircularLinkedList<String> circularLinkedList = new CircularLinkedList<>();
-		circularLinkedList.insert("첫번째");
-		circularLinkedList.insert("두번째");
-		circularLinkedList.insert("세번째");
-//		circularLinkedList.print();
+		// CircularLinkedList<String> circularLinkedList = new CircularLinkedList<>();
 		
 		// 리버스 연결 리스트
-		ReverseLinkedList<String> reverseLinkedList = new ReverseLinkedList<>();
-		reverseLinkedList.insert("첫번째");
-		reverseLinkedList.insert("두번째");
-		reverseLinkedList.insert("세번째");
-		reverseLinkedList.print();
-		reverseLinkedList.reverse();
-		reverseLinkedList.print();
+		// ReverseLinkedList<String> reverseLinkedList = new ReverseLinkedList<>();
+		
+		// 연결 리스트 기반 스택
+		LinkedBasedStack<String> linkedBasedStack = new LinkedBasedStack<>();
+		linkedBasedStack.insert("첫번째");
+		linkedBasedStack.insert("두번째");
+		linkedBasedStack.insert("세번째");
+		linkedBasedStack.pop();
+		linkedBasedStack.pop();
+		linkedBasedStack.pop();
+		linkedBasedStack.pop();
 		
 	}
 

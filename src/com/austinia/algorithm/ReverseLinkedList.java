@@ -34,6 +34,7 @@ public class ReverseLinkedList<T> {
 			prevNode = currentNode; // 이전 노드를 현재 노드로 변경
 			currentNode = nextNode; // 현재 노드를 다음 노드로 변경
 		}
+		tailNode = headNode;
 		headNode = prevNode;
 	}
 

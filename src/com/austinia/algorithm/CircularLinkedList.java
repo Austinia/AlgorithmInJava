@@ -10,8 +10,8 @@ public class CircularLinkedList<T> {
 			headNode = tmpNode;
 			tailNode = tmpNode;
 		} else {
-		tmpNode.nextNode = headNode;
-		tailNode.nextNode = tmpNode;
+		tmpNode.nextNode = headNode; // 임시 노드의 다음 노드를 첫 노드로
+		tailNode.nextNode = tmpNode; // 현재 노드의 다음 노드를 임시 노드로
 		tailNode = tmpNode;
 		}
 		
