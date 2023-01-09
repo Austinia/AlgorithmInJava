@@ -23,14 +23,19 @@ public class Main {
 		// LinkedBasedStack<String> linkedBasedStack = new LinkedBasedStack<>();
 		
 		// 연결 리스트 기반 큐
-		LinkedBasedQueue<String> linkedBasedQueue = new LinkedBasedQueue<>();
-		linkedBasedQueue.insert("첫번째");
-		linkedBasedQueue.insert("두번째");
-		linkedBasedQueue.insert("세번째");
-		linkedBasedQueue.pop();
-		linkedBasedQueue.pop();
-		linkedBasedQueue.pop();
-		linkedBasedQueue.pop();
+		// LinkedBasedQueue<String> linkedBasedQueue = new LinkedBasedQueue<>();
+		
+		// 이진 트리
+		BinaryTree<String> binaryTree = new BinaryTree<>();
+		binaryTree.insert("첫번째");
+		binaryTree.insert("두번째");
+		binaryTree.insert("세번째");
+		binaryTree.insert("네번째");
+		binaryTree.insert("다섯번째");
+		binaryTree.insert("여섯번쨰");
+		binaryTree.insert("일곱번쨰");
+		binaryTree.insert("여덞번쨰");
+		binaryTree.print();
 	}
 
 }
