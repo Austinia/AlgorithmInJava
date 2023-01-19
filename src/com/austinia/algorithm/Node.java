@@ -1,6 +1,6 @@
 package com.austinia.algorithm;
 
-class Node<T> {
+class Node<T>{
 	T data; // 데이터
 	Node<T> nextNode; // 다음 노드
 	Node<T> prevNode; // 이전 노드

@@ -26,17 +26,14 @@ public class Main {
 		// LinkedBasedQueue<String> linkedBasedQueue = new LinkedBasedQueue<>();
 		
 		// 이진 트리
-		BinaryTree<String> binaryTree = new BinaryTree<>();
-		binaryTree.insert("첫번째");
-		binaryTree.insert("두번째");
-		binaryTree.insert("세번째");
-		binaryTree.insert("네번째");
-		binaryTree.insert("다섯번째");
-		binaryTree.insert("여섯번쨰");
-		binaryTree.insert("일곱번쨰");
-		binaryTree.insert("여덞번쨰");
-		binaryTree.print();
+		// BinaryTree<String> binaryTree = new BinaryTree<>();
+		
+		// 힙 트리
+		HeapTree heapTree = new HeapTree();
+		for(int i = 0; i < 10; i++) {
+			heapTree.add((int)(Math.random() * 100));
+		}
+		heapTree.print();
 	}
-
 }
 
